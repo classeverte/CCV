@@ -1,0 +1,118 @@
+html
+body
+{
+	background-color: #E6E6E6;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 2.9em;
+	color: #FF0000;
+
+}
+
+h2
+{
+	font-size: 1.8em;
+	color: #000000;
+}
+
+
+
+h1, h2, p, li, ul, body
+{
+	text-align: justify;
+}
+
+h1, h2, p, li, ul, body
+{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-right: 3em;
+    margin-left: 1em;
+}
+
+
+* Style the video: 80%*/
+#myVideo {
+    position: middle;
+    right: 0;
+    bottom: 0;
+    min-width: 80%; 
+    min-height: 80%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+
+
